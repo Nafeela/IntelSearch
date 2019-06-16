@@ -1,4 +1,4 @@
-package artyomd.search;
+package feel.IntelSearch;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -52,8 +52,8 @@ public class SearchTask extends AsyncTask<String, Void, List<GObject>> {
         customSearch.setApplicationName("Search");
         try {
             com.google.api.services.customsearch.Customsearch.Cse.List list = customSearch.build().cse().list(params[0]);
-            list.setKey("AIzaSyBU22SbQswBagy5Qcli8KjyDxMy19WagnE");
-            list.setCx("003630389706661019147:i5a1vmvqv4m");
+            list.setKey("AIzaSyCVGwDdk1lJ3ItdFiZyIpKHWghYVfFsIvc");
+            list.setCx("005302659163481198464:7n1cg4pwm60");
             list.setStart(firstItemID);
             if (type) {
                 list.setSearchType("image");

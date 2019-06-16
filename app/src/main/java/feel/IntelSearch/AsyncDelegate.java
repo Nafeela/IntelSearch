@@ -1,4 +1,4 @@
-package artyomd.search;
+package feel.IntelSearch;
 
 import java.util.List;
 

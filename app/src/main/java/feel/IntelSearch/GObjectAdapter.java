@@ -1,4 +1,4 @@
-package artyomd.search;
+package feel.IntelSearch;
 
 import android.content.Context;
 import android.content.Intent;
